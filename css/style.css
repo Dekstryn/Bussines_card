@@ -15,6 +15,7 @@ body{
   justify-content: center;
   padding: 16px;
   min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-block{
   background-color: #0ECC37;
@@ -38,5 +39,4 @@ body{
   line-height: 15px;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-decoration: none;
 }
