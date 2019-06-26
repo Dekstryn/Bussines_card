@@ -26,9 +26,6 @@ body{
   align-items: center;
   justify-content: center;
 }
-.info{
-  padding: 32px 16px;
-}
 .social{
   padding: 32px 16px;
 }
@@ -39,6 +36,9 @@ body{
   line-height: 15px;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info{
+  padding: 32px 16px;
 }
 .info__title{
   font-style: normal;
