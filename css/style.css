@@ -7,12 +7,20 @@ html{
 body{
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,27,188,1) 66%, rgba(0,212,255,1) 99%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  min-height: 100vh;
 }
 .main-block{
   background-color: #0ECC37;
   border-radius: 16px;
   max-width: 500px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .info{
   padding: 32px 16px;
