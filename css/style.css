@@ -11,4 +11,6 @@ body{
 .main-block{
   background-color: #0ECC37;
   border-radius: 16px;
+  max-width: 500px;
+  max-height: 292px;
 }
