@@ -29,6 +29,10 @@ body{
 .social{
   padding: 32px 16px;
 }
+.social__img{
+  padding-bottom: 12px;
+  border-radius: 50%;
+}
 .social__list, .social__title{
   font-style: normal;
   font-weight: normal;
