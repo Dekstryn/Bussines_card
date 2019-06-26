@@ -4,6 +4,9 @@ html{
 *,*:before, *:after{
   box-sizing: inherit;
 }
+ul{
+  list-style: none;
+}
 body{
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,27,188,1) 66%, rgba(0,212,255,1) 99%);
@@ -12,6 +15,7 @@ body{
   justify-content: center;
   padding: 16px;
   min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-block{
   background-color: #0ECC37;
@@ -22,9 +26,43 @@ body{
   align-items: center;
   justify-content: center;
 }
+.social{
+  padding: 32px 16px;
+}
+.social__img{
+  padding-bottom: 12px;
+  border-radius: 50%;
+}
+.social__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.social__list{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .info{
   padding: 32px 16px;
 }
-.social{
-  padding: 32px 16px;
+.info__title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  line-height: 29px;
+  text-decoration: underline;
+}
+.info__content{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
 }
