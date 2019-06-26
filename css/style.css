@@ -12,6 +12,8 @@ body{
   background-color: #0ECC37;
   border-radius: 16px;
   max-width: 500px;
- 
   width: 100%;
+}
+.info{
+  padding: 32px 16px;
 }
