@@ -43,4 +43,6 @@ body{
 .info__content{
   font-style: normal;
   font-weight: normal;
+  font-size: 12px;
+  text-align: center;
 }
